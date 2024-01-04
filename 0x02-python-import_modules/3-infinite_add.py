@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 
-#print the addition of all arguments
 if __name__ == "__main__":
     import sys
 
