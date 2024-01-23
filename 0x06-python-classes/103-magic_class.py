@@ -1,10 +1,12 @@
 #!/usr/bin/python3
 """ByteCode -> Python #5"""
 
+
 import math
 
 
 class MagicClass:
+    """MagicClass"""
 
     def __init__(self, radius=0):
         """Disassembly of __init__"""

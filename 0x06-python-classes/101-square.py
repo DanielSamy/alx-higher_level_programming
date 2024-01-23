@@ -26,6 +26,7 @@ class Square:
 
     @property
     def position(self):
+        """Property to retrieve position"""
         return (self.__position)
 
     @position.setter
@@ -38,9 +39,11 @@ class Square:
         self.__position = value
 
     def area(self):
+        """Public instance method that returns the current square area"""
         return self.__size ** 2
 
     def my_print(self):
+        """Public instance method that prints the square with char #"""
         if self.__size == 0:
             print("")
             return
